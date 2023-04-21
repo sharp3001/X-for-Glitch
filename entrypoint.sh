@@ -10,8 +10,8 @@ UUID=${UUID:-'4c8391e1-8131-44fc-b7ea-eaeb8e3e9a64'}
 #NEZHA_KEY=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH=''
-ARGO_DOMAIN=
+#ARGO_AUTH=''
+#ARGO_DOMAIN=
 
 generate_config() {
   cat > config.json << EOF
